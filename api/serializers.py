@@ -23,7 +23,7 @@ class DepartmentSerializer(serializers.ModelSerializer):
 class FoodSerializer(serializers.ModelSerializer):
     image_url = FoodImageSerializer(many=True, read_only=True)
     category = CategorySerializer()
-    department = DepartmentSerializer()
+    department = DepartmentSerializer(many=True, read_only=True)
 
     class Meta:
         model = Food
