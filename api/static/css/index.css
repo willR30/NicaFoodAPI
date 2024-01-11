@@ -1,0 +1,64 @@
+.mainText{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+
+.secondText{
+    color: #4799f0;
+    text-align: center;
+    font-size: 14px;
+}
+
+.urlText{
+    background-color: #4799f0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 20px;
+    padding: 2%;
+}
+
+.main_container_api{
+    width: 30%;
+    height: 150px;
+    padding: 1px;
+    margin: auto;
+    margin-top: 10%;
+}
+
+
+/*cards carrousels styles*/
+
+.cards_food_carrousels{
+  padding: 1%;
+  background-color: transparent;
+  display:  inline-flex;
+  width: 100%;
+  
+}
+/*cards styles*/
+
+.card {
+    width: 200px;
+    height: 350px;
+    padding:0%;
+    box-sizing: border-box;
+    background-color: transparent!important;
+    margin: 5px;
+}
+
+  .imagen {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    
+
+  }
+
+  .texto {
+    background-color: transparent;
+    font-size: 14px;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+  }

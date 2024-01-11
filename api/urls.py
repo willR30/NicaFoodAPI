@@ -8,7 +8,7 @@ urlpatterns = [
 
 # Aquí puedes continuar usando el enrutador para tus vistas basadas en clases si así lo deseas
 router = routers.DefaultRouter()
-router.register('Food', FoodViewSet, 'Food')
+router.register('getFoodList', FoodViewSet, 'Food')
 
 # Agrega las URLs del enrutador a urlpatterns
 urlpatterns += router.urls

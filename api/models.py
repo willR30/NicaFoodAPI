@@ -29,7 +29,7 @@ class Food(models.Model):
     description = models.CharField(max_length=255, null=True)
     category=models.ForeignKey(Category, on_delete=models.CASCADE)
     image_url = models.ManyToManyField(Food_image)
-    department=models.ForeignKey(Department, on_delete=models.CASCADE)
+    department=models.ManyToManyField(Department)
 
     def __str__(self):
         return self.name
